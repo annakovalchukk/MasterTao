@@ -1,7 +1,31 @@
-header{
+header {
+	margin: 25px 0 39px;
+}
 
-	background: #222;
-	a {
-		color: #fff;
+
+.navbar {
+	padding-top: 25px;
+	padding-bottom: 39px;
+	&-nav {
+		margin: 0 auto;
+		a {
+			color: rgba(255, 255, 255, 1);
+			&:hover {
+				color: #89C249;
+			}
+		}
+		
 	}
+	.btn-primary{
+		background: #E58D35;
+		border-radius: 90px;
+		border: none;
+		padding: 10px 27px;
+		font-size: 16px;
+	
+		&:hover {
+			background-color: #89C249;
+			text-decoration: none;
+		  }
+	  }
 }
