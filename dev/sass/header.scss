@@ -1,31 +1,94 @@
-header {
-	margin: 25px 0 39px;
-}
-
-
 .navbar {
 	padding-top: 25px;
 	padding-bottom: 39px;
+	&-brand {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
 	&-nav {
 		margin: 0 auto;
+		flex-direction: row;
+		max-width: 647px;
+		width: 100%;
+		justify-content: space-around;
+		padding-top: 5px;
 		a {
-			color: rgba(255, 255, 255, 1);
+			color: $color-text;
 			&:hover {
-				color: #89C249;
+				color: $color-secondary;
 			}
 		}
 		
 	}
+	.btn {
+		margin-left: 16px;
+		white-space: nowrap;
+	}
+
 	.btn-primary{
-		background: #E58D35;
+		background: $color-primary;
 		border-radius: 90px;
 		border: none;
-		padding: 10px 27px;
+		padding: 13px 26px;
 		font-size: 16px;
 	
 		&:hover {
-			background-color: #89C249;
+			background-color: $color-secondary;
 			text-decoration: none;
 		  }
 	  }
 }
+
+.navbar-toggler {
+	width: 40px;
+	height: 40px;
+	border-radius: 0;
+	position: relative;
+	&:focus {
+		box-shadow: none;
+	}
+	.navbar-toggler-icon {
+		width: 27.5px;
+		height: 2.5px;
+		background-color: $color-text;
+		position: absolute;
+		left: 11px;
+		top: 19px;
+		transition: 0.3s;
+		&::after,
+		&::before {
+			content: "";
+			width: 27.5px;
+			height: 2.5px;
+			background-color: $color-text;
+			display: inline-block;
+			position: absolute;
+			left: 50%;
+			left: 50%;
+			transform: translate(-50%);
+			top: -11px;
+			transition: 0.3s;
+		}
+		&::before {
+			top: initial;
+			bottom: -11px;
+		}
+	}
+
+	&[aria-expanded="false"] { /*закрыт*/
+
+	}
+
+	&[aria-expanded="true"] { /*открыт*/
+		.navbar-toggler-icon {
+			background-color: transparent;
+			&::after {
+				transform: translate(-14px, 11px) rotate(-45deg);
+			}
+			&::before {
+				transform: translate(-14px,-11px) rotate(45deg);
+			}
+		}
+	}
+}
+

@@ -1,11 +1,11 @@
 ::selection {
-    color: rgba(255, 255, 255, 1);
-    background-color: #89C249;
+    color: $color-text;
+    background-color: $color-secondary;
 }
 
 
 body {
-    background: #282B38;
+    background: $bg-primary;
     color: rgba(255, 255, 255, 1);
 }
 
