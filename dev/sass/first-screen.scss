@@ -34,13 +34,17 @@
         display: flex;
     }
 
+    .btn-lg .icon {
+        margin: 0 -14px 0 43px;
+    }
+
     .container {
         margin-bottom: 64px;
         padding: 0 92px;
     }
 
     .container-xxl {
-        max-width: 1920px;
+        max-width: 8920px;
         min-height: 700px;
         display: flex;
         align-items: center;
