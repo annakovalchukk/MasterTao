@@ -20,23 +20,37 @@
 
     &-slider__arrows {
         position: absolute;
-        max-width: 1523px;
+        max-width: 1570px;
         width: 100%;
         display: flex;
         justify-content: space-between;
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
+        padding: 0 60px;
     }
     
     .btn-lg {
         display: flex;
     }
 
+    .container {
+        margin-bottom: 64px;
+        padding: 0 92px;
+    }
+
     .container-xxl {
-        max-width: 1850px;
+        max-width: 1920px;
         min-height: 700px;
         display: flex;
         align-items: center;
+        border-radius: 20px;
+    }
+
+    .slick-dots {
+        position: absolute;
+        left: 50%;
+        bottom: 43px;
+        transform: translate(-50%, 0);
     }
 }
