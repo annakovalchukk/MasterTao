@@ -56,5 +56,12 @@
         left: 50%;
         bottom: 43px;
         transform: translate(-50%, 0);
+
+    li {
+            border-radius: 50px;
+        }
+        .slick-active button{
+            background-color: transparent;
+        }
     }
 }
