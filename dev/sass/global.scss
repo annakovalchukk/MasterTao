@@ -18,12 +18,20 @@ body {
 }
 
 .container-xxl {
-    max-width: 1850px; /*or 1820px*/
+    max-width: 1820px;
 }
 
 
 .slick-track {
     display: flex;
+}
+
+section {
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: $section-margin-lg;
+    max-width: 1920px;
 }
 
 

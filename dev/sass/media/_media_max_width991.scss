@@ -44,6 +44,24 @@
                 justify-content: center;
               }
     }
+     
+    .first-screen {
+      .container {
+        padding: 0 40px;
+        text-align: center;
+      }
+
+      &-slider__title {
+        font-size: 32px;
+        max-width: 100%;
+        margin-bottom: 10px;
+      }
+
+      &-slider__subtitle {
+        font-size: 16px;
+        margin-bottom: 18px;
+      }
+    }
 }
 
 

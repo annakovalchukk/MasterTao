@@ -4,6 +4,7 @@ $(document).ready(function(){
         dots: true,
         infinite: true,
         appendArrows: '.first-screen-slider__arrows'
+
     });
 
   });  
