@@ -14,3 +14,6 @@ $(document).ready(function(){
     });
 
   });  
+
+  const checkbox = document.querySelectorAll('[type="checkbox]')
+  console.log(checkbox);

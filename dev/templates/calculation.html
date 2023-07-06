@@ -1,0 +1,82 @@
+<section class="calculation">
+    <div class="container">
+        <div class="template-title col-lg-7 text-left">
+            <h2>Получить рассчет стоимости
+                доставки вашего груза?</h2>
+        </div>
+        <form class="calculation-form">
+            <div class="input-row">
+                <div class="input-column">
+                    <div class="input-box">
+                        <label for="fname">Категория товара:</label>
+                        <input type="text" id="fname" name="fname">
+                    </div>
+                    <div class="input-box">
+                        <label for="quantity">Вес груза (кг):</label>
+                        <input type="number" id="quantity" name="quantity" min="1" max="5">
+                    </div>
+                </div>
+                <div class="input-column">
+                    <div class="input-box">
+                        <label for="quantity">Стоимость груза:</label>
+                        <input type="number" id="quantity" name="quantity" min="1" max="5">
+                    </div>
+                    <div class="input-box">
+                        <label for="quantity">Объем груза (м3):</label>
+                        <input type="number" id="quantity" name="quantity" min="1" max="5">
+                    </div>
+                </div>
+            </div>
+            <div class="input-row">
+                <div class="input-column">
+                    <div class="input-box">
+                        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                        <label for="vehicle1"> I have a bike</label>
+                    </div>
+                        <div class="input-box">
+                            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                            <label for="vehicle2"> I have a car</label>
+                    </div>
+                </div>
+                <div class="input-column">
+                    <div class="input-box">
+                        <label for="quantity">Код ТН ВЭД:</label>
+                        <input type="number" id="quantity" name="quantity" min="1" max="5">
+                    </div>
+                </div>
+            </div>
+            <div class="input-row">
+                <div class="input-column">
+                    <div class="input-box">
+                        <label for="myfile">Select a file:</label>
+                        <input type="file" id="myfile" name="myfile">
+                    </div>
+                </div>
+            </div>
+            <div class="input-row">
+                <div class="input-column">
+                    <div class="input-box">
+                        <button type="button" class="btn btn-primary btn-lg">Следующий шаг<img src="assets/img/icon-arrow-left.svg" class="icon" alt="icon"></button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+
+
+<label for="quantity">Quantity (between 1 and 5):</label>
+<input type="number" id="quantity" name="quantity" min="1" max="5">
+
+<label for="fname">First name:</label>
+<input type="text" id="fname" name="fname">
+
+<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+<label for="vehicle1"> I have a bike</label><br>
+<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+<label for="vehicle2"> I have a car</label><br>
+<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+<label for="vehicle3"> I have a boat</label><br>
+
+<label for="myfile">Select a file:</label>
+<input type="file" id="myfile" name="myfile">

@@ -1,0 +1,12 @@
+.calculation-form {
+    max-width: 626px;
+    width: 100%;
+    background-color: $bg-secondary;
+    border-radius: 20px;
+    padding: 50px 35px 61px;
+    margin-left: 15px;
+    .input-box {
+        margin: 0 15px 20px;
+        display: flex;
+    }
+}
