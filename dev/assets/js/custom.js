@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function() {
 
     $('.first-screen-slider').slick({
         dots: true,
@@ -7,23 +7,22 @@ $(document).ready(function(){
         responsive: [{
             breakpoint: 991,
             settings: {
-              arrows:false,
+                arrows: false,
             }
-          },
-        ]
+        }, ]
     });
 
-  });  
+});
 
-  const checkbox = document.querySelectorAll('[type="checkbox"]')
+const checkbox = document.querySelectorAll('[type="checkbox"]')
 
-  console.log(checkbox);
+console.log(checkbox);
 
-  checkbox.forEach(item => {
-    item.сlosest('.input-box').classList.add('has-checkbox')
-    item.сlosest('.input-column').classList.add('padding-top')
-  })
+checkbox.forEach(item => {
+    item.closest('.input-box').classList.add('has-checkbox')
+    item.closest('.input-column').classList.add('padding-top')
+})
 
-  document.getElementById('myfile').onchange = function () {
+document.getElementById('myfile').onchange = function() {
     document.getElementById('file-name').innerHTML = this.value;
-  }  
+}
