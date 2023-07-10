@@ -1,8 +1,9 @@
 @media (min-width: 992px) {
-    section{
+    section {
         padding-right: 50px;
         padding-left: 50px;
     }
+
     .first-screen {
 
         .container-xxl {
@@ -12,11 +13,26 @@
 
         &-slider__title {
             max-width: 473px;
-        } 
-        
+        }
+
         &-slider__subtitle {
             max-width: 345px;
         }
 
+    }
+
+    .template-title {
+
+        /*2*/
+        &.text-left,
+        &.col-lg-7 {
+            text-align: left;
+
+            &::after {
+                left: 0;
+                transform: none;
+            }
+
+        }
     }
 }

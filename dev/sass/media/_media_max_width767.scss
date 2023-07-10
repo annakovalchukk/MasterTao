@@ -1,8 +1,12 @@
 @media screen and (max-width: 767px) {
     .calculation-form {
         border-radius: 20px;
-        padding: 52px 15px 34px;
+        padding: 52px 15px 15px;
         margin-left: initial;
+
+        #file-name {
+            margin: 0 0 12px;
+        }
     
         .btn {
                 max-width: 100%;
@@ -15,7 +19,7 @@
         flex-direction: column;
     }
 
-    .padding-top {
+.padding {
         padding-top: 7px;
         padding-bottom: 5px;
     }
