@@ -1,8 +1,8 @@
 @media screen and (max-width: 767px) {
-    .calculation-form {
+    section.calculation-form {
         border-radius: 20px;
         padding: 52px 15px 15px;
-        margin-left: none;
+        margin-left: initial;
         #file-name {
             margin: 0 0 12px;
         }
