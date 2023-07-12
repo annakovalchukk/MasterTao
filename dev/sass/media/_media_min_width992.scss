@@ -2,6 +2,12 @@
     section {
         padding-right: 50px;
         padding-left: 50px;
+
+        &.container-fluid {
+            &.container-fluid:before {
+                border-radius: 20px;
+        }
+        }
     }
 
     .first-screen {

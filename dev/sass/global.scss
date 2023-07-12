@@ -34,21 +34,20 @@ section {
     max-width: 1920px;
 }
 
-section.container-fluid {
+&.container-fluid {
     padding: 90px 85px 100px;
     position: relative;
+    
+    &.container-fluid:before {
+        content: "";
+        position: absolute;
+        left: 42px;
+        right: 42px;
+        top: 0;
+        height: 100%;
+        background-color: $bg-secondary;
+        z-index: -1;
 }
-
-section.container-fluid:before {
-    content: "";
-    position: absolute;
-    left: 42px;
-    right: 42px;
-    top: 0;
-    height: 100%;
-    background-color: $bg-secondary;
-    border-radius: 20px;
-    z-index: -1;
 }
 
 .slick-arrow {
