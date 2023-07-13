@@ -1,8 +1,9 @@
 @media screen and (max-width: 991px) {
     section {
       margin-bottom: $section-margin;
-      &.container-fluid {
-            padding: 55px 20px 60px;
+      &.container-fluid,
+      &.advantages.container-fluid  {
+            padding: 55px 0px 60px;
             position: relative;
     
             &:before {
@@ -136,13 +137,17 @@
         }
     }
     .advantages {
-        ul.slick-dots {
+        .slick-slider {
+            padding-top: 10px;
+        }
+        .slick-dots {
             margin-bottom: 60px;
         }
     }
 
     .advantage {
         padding: 0 20px;
+        margin-bottom: 25px;
     }
 
      
