@@ -5,10 +5,22 @@
 @media screen and (max-width: 530px) {
     .slider-template {
         .slide-list {
-            margin-bottom: 32px;
+            margin-bottom: 31px;
         }
     }
     .slide-box {
         margin: 0 auto;
+    }
+
+    .slide-img-box {
+        img {
+            min-height: 230px;
+        }
+    }
+
+    .slide-buttons {
+        .btn {
+            padding: 13px 5px;
+        }
     }
 }
