@@ -1,0 +1,17 @@
+.slider-template {
+    margin: 0 -15px;
+    .slick-arrow {
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
+        &.slick-prev {
+            left: -100px;
+            transform: translate(0, -50%) rotate(180deg);
+        }
+
+        &.slick-next {
+            right: -100px;
+        }
+    }
+}
+

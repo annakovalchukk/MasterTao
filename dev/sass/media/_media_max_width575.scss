@@ -1,3 +1,14 @@
 @media screen and (max-width: 575px) {
-    
+
+}
+
+@media screen and (max-width: 530px) {
+    .slider-template {
+        .slide-list {
+            margin-bottom: 32px;
+        }
+    }
+    .slide-box {
+        margin: 0 auto;
+    }
 }
