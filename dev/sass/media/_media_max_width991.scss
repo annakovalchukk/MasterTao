@@ -1,23 +1,25 @@
 @media screen and (max-width: 991px) {
     section {
-      margin-bottom: $section-margin;
-      &.container-fluid,
-      &.advantages.container-fluid  {
+        margin-bottom: $section-margin;
+
+        &.container-fluid,
+        &.advantages.container-fluid {
             padding: 55px 0px 60px;
             position: relative;
-    
+
             &:before {
                 left: 0;
                 right: 0;
             }
-             > .container {
+
+            >.container {
                 padding-left: 0;
                 padding-right: 0;
             }
         }
     }
 
-  .container {
+    .container {
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -113,6 +115,7 @@
 
     .template-title {
         margin-bottom: 35px;
+
         h2 {
             font-size: 24px;
             font-weight: 700;
@@ -136,10 +139,12 @@
             }
         }
     }
+
     .advantages {
         .slick-slider {
             padding-top: 10px;
         }
+
         .slick-dots {
             margin-bottom: 60px;
         }
@@ -150,5 +155,18 @@
         margin-bottom: 25px;
     }
 
-     
+    .information {
+        p {
+            width: 335px;
+            line-height: 149.5%;
+            font-size: 16px;
+            font-weight: 300;
+        }     
+        .information_img {
+            margin: 33px auto 0;
+            max-width: 337px;
+        }
+
+    }
+
 }
