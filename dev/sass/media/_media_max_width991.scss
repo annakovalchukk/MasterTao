@@ -170,3 +170,37 @@
     }
 
 }
+
+
+.question {
+
+    .accordion-body {
+        padding: 0px 22px 12px;
+        font-size: 14px;
+        
+        
+        .accordion-button.collapsed {
+            padding: 12px 22px;
+        }
+        
+    }
+    
+    .question-form {
+        margin: 0 auto 60px;
+        margin-top: 28px;
+        padding: 31px 20px;
+
+        .form-title,
+        .form-description {
+            text-align: center;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        .input-box {
+            margin: 14px;
+            width: 100%;
+        }
+
+    }
+}

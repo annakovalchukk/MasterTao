@@ -1,54 +1,106 @@
 .accordion-question {
-    padding-right: 33px;
+    padding-right: 38px;
 
     .accordion-item {
         max-width: 716px;
         margin-bottom: 16px;
         border-radius: 10px;
-        background-color: transparent;
         border: 1px solid #3A444E;
-    }
+        background-color: $bg-primary;
 
-    .accordion-button {
-
-        &.collapse {
-            color: $color-text;
-            background-color: $color-primar;
-        }
-
-        &::after {
-            content: "";
-            margin-left: auto;
-            background-image: url(assets/img/arrow-circle.svg);
-            background-repeat: no-repeat;
-            background-size: 27px;
-            height: 30px;
-            width: 28px;
-        }
-
-        &:hover {
-            border-color: $color-primarr;
-        }
-        &:not(.collapsed) {
-            color: #282B38;
-            line-height: 124.5%;
+        .accordion-button {
             border-radius: 10px;
-            background: #FFF;
-            box-shadow: none;
+            background-color: transparent;
+            color: #fff;
+            &:fist-of-type,
+            &:last-of-type {
+
+                border-radius: 10px;
+            }
+
+            &.collapse {
+                background-color: $bg-primary;
+                color: $color-text;
+            }
+
+            &::after {
+                content: "";
+                margin-left: auto;
+                background-image: url(assets/img/arrow-circle.svg);
+                background-repeat: no-repeat;
+                background-size: 27px;
+                height: 30px;
+                width: 28px;
+            }
+
+            &:hover {
+                border-color: $color-primary;
+            }
+
+            &:not(.collapsed) {
+                color: #282B38;
+                line-height: 124.5%;
+                border-radius: 10px;
+                background: $color-text;
+                border-bottom-left-radius: 0px;
+                border-bottom-right-radius: 0px;
+                box-shadow: none;
+            }
+
+            &:not(.collapsed)::after {
+                background-image: url(assets/img/arrow-circle-2.svg);
+                background-repeat: no-repeat;
+                transform: rotate(0deg);
+            }
         }
     }
 
-
-    &:not(.collapsed)::after {
-        background-image: url(assets/img/arrow-circle-2.svg);
-        background-repeat: no-repeat;
-        transform: rotate(0deg) translate(17px, 2px);
-    }
 
     .accordion-body {
         font-weight: 300;
-        background-color: #FFF;
-
+        background-color: $color-text;
+        border-radius: 10px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        color: black;
+        color: #282B38;
+        line-height: 144.5%;
     }
 
+}
+
+
+.question-form {
+    width: 390px;
+    height: 553px;
+    border-radius: 20px;
+    background-color: $bg-secondary;
+    margin-left: -16px;
+    border-radius: 20px;
+    padding: 38px 40px;
+
+    .form-title {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 126%;
+    }
+
+    .form-description {
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 126%; 
+        margin-bottom: 23px;
+    }
+
+    .input-column {
+        max-width: 310px;
+    }
+
+    .btn {
+        max-width: 310px;
+        height: 68px;
+    .icon {
+            margin: 0 -14px 0 95px;
+        }
+    }
 }
