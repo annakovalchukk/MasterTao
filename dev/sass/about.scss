@@ -1,17 +1,14 @@
-.about {
-        position: relative;
-}
-.information {
-    font-weight: 400;
-    line-height: 170%;
-    font-size: 18px;
-    width: 555px;
-    margin-bottom: 20px;
 
-    .information_img {
-        position: absolute;
-        margin-top: -160px;
-        
+.information {
+    p {
+        line-height: 170%;
+        font-size: 18px;
+        width: 555px;
+        margin-bottom: 20px;
+        font-weight: 300;
     }
 }
-
+.information_img {
+    margin-top: -160px;
+    transform: translate(-70px, 10px);
+}

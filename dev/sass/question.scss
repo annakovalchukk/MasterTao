@@ -1,3 +1,6 @@
+.question {
+    margin-top: 50px;
+}
 .accordion-question {
     padding-right: 38px;
 
@@ -21,6 +24,8 @@
             &.collapse {
                 background-color: $bg-primary;
                 color: $color-text;
+                max-height: 64px;
+                line-height: 144.5%;
             }
 
             &::after {
@@ -35,6 +40,7 @@
 
             &:hover {
                 border-color: $color-primary;
+                border: none;
             }
 
             &:not(.collapsed) {

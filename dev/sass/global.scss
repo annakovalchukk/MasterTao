@@ -38,7 +38,7 @@ section {
     padding: 90px 85px 100px;
     position: relative;
 
-    &.container-fluid:before {
+    &:before {
         content: "";
         position: absolute;
         left: 42px;
