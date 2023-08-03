@@ -161,50 +161,50 @@
 
     .information {
         margin-bottom: 25px;
+
         p {
             width: 335px;
             line-height: 149.5%;
             font-size: 16px;
             font-weight: 300;
-        }     
-        
+        }
+
     }
-    
-}
 
     .information_img {
-        margin: 5px auto;
-        max-width: 337px;
+        margin: 25px auto 0;
+        width: 273px;
     }
 
 
-.question {
-    .accordion-body {
-        padding: 0px 22px 12px;
-        font-size: 14px;
-        
-        .accordion-button.collapsed {
-            padding: 12px 22px;
-        }
-        
-    }
+    .question {
+        .accordion-body {
+            padding: 0px 22px 12px;
+            font-size: 14px;
 
-    .question-form {
-        margin: 0 auto;
-        padding: 31px 20px;
+            .accordion-button.collapsed {
+                padding: 12px 22px;
+            }
 
-        .form-title,
-        .form-description {
-            text-align: center;
-            padding-left: 15px;
-            padding-right: 15px;
         }
 
-        .input-box {
-            margin: 14px;
-            width: 100%;
-        }
+        .question-form {
+            margin: 0 auto;
+            padding: 31px 20px;
 
+            .form-title,
+            .form-description {
+                text-align: center;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+
+            .input-box {
+                margin: 14px;
+                width: 100%;
+            }
+
+        }
     }
 
     .cooperation .container .row {
@@ -212,28 +212,43 @@
             display: flex;
             flex-direction: column-reverse;
         }
-        
+
+
+        &:first-child {
+            p {
+                margin: 20px auto;
+                text-align: start;
+            }
+        }
+
         &:first-child,
-    &:last-child {
-        font-size: 16px;
-        margin: 35px 0 45px 0;
-        line-height: 149.5%;
-    }
-    
-    &:first-child {
-        p{
-            margin: 20px auto;
-            text-align: center;
+        &:last-child {
+            font-size: 16px;
+            margin: 35px 0 45px 0;
+            line-height: 149.5%;
         }
-    }
-    
-    &:last-child  {
-        margin: 30px 0 6px 0;
-        p {
-            margin-bottom: 30px;
-            text-align: center;
-    
+
+        &:last-child {
+            margin: 30px 0 6px 0;
+
+            p {
+                margin-bottom: 30px;
+                text-align: start;
+
+            }
         }
-    }
+
+        .cooperation_img {
+            width: 335px;
+            height: 220px;
+            flex-shrink: 0;
+
+        }
+
+        .btn  {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
     }
 }

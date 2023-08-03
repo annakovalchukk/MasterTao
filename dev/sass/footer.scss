@@ -1,2 +1,9 @@
-
- 
+footer .container:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 1140px;
+    height: 2px;
+    background: #E58D35;
+}
