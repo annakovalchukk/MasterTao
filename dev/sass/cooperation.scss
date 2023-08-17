@@ -24,14 +24,15 @@
         margin-bottom: 35px;
         font-weight: 300;
         line-height: 156.5%;
+        text-align: justify;
     }
     
     .cooperation_img {
         padding: 2px 0px 0px 4px;
         border-radius: 20px;
         margin-bottom: 33px;
-        width: 555px;
+        max-width: 635px;
         height: 406px;
+        width: 100%;
     }
 }
-

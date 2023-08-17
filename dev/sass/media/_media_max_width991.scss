@@ -80,6 +80,7 @@
             flex-direction: column;
             align-items: center;
             z-index: 1;
+
         }
 
         .container-xxl {
@@ -95,6 +96,7 @@
                 top: 0;
                 bottom: 0;
             }
+
         }
 
         &-slider__title {
@@ -109,6 +111,7 @@
         }
     }
 
+   
     .calculation__img-box {
         display: none;
     }
@@ -156,7 +159,14 @@
     }
 
     .about {
+        .container {
+display: block;
+        }
         flex-direction: column;
+        justify-content: center;
+        .information_img {
+margin-top: 40px;
+        }
     }
 
     .information {
@@ -167,9 +177,11 @@
             line-height: 149.5%;
             font-size: 16px;
             font-weight: 300;
+            margin: 20px auto;
         }
 
     }
+    
 
     .information_img {
         margin: 25px auto 0;
@@ -178,19 +190,29 @@
 
 
     .question {
+        margin-bottom: 110px;
         .accordion-body {
-            padding: 0px 22px 12px;
+            padding: 21px 22px 12px;
             font-size: 14px;
 
             .accordion-button.collapsed {
                 padding: 12px 22px;
             }
 
+            .col-lg-8 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
         }
 
         .question-form {
             margin: 0 auto;
+            margin-top: 28px;
             padding: 31px 20px;
+            display: flex;
+            flex-direction: column;
+
 
             .form-title,
             .form-description {
@@ -200,7 +222,6 @@
             }
 
             .input-box {
-                margin: 14px;
                 width: 100%;
             }
 
@@ -256,6 +277,15 @@
         .footer-logo {
             text-align: center;
             margin: 0 20px;
+        }
+
+        .footer-links {
+            display: none;
+        }
+
+        .footer-adress {
+            margin: 0 auto;
+            text-align: center;
         }
     }
 }

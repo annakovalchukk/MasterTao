@@ -1,4 +1,8 @@
-
+.about {
+    .container {
+        display: flex;
+    }
+}
 .information {
     p {
         line-height: 170%;
@@ -6,9 +10,15 @@
         width: 555px;
         margin-bottom: 20px;
         font-weight: 300;
+        text-align: justify;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
     }
 }
 .information_img {
-    margin-top: -160px;
-    transform: translate(-70px, 10px);
+margin: 0 auto;
+max-width: 550px;
+width: 100%;
+display: flex;
 }

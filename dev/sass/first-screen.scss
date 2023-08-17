@@ -8,8 +8,8 @@
         text-transform: uppercase;
         margin-bottom: 8px;
         word-break: break-all;
-    } 
-    
+    }
+
     &-slider__subtitle {
         font-size: 20px;
         font-weight: 300;
@@ -27,13 +27,14 @@
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
-        padding: 0 50px;
+        padding: 0 31px;
     }
-    
+
     .btn-lg {
         display: flex;
         padding: 19.6px 43px;
         font-size: 16px;
+
     }
 
     .btn-lg .icon {
@@ -60,7 +61,7 @@
         bottom: 43px;
         transform: translate(-50%, 0);
 
-    li button{
+        li button {
             border-radius: 50px;
             width: 8px;
             height: 8px;
@@ -68,7 +69,8 @@
             border: 2px solid white;
             background-color: transparent;
         }
-        .slick-active button{
+
+        .slick-active button {
             background-color: white;
         }
     }

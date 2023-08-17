@@ -4,6 +4,7 @@
 }
 
 
+
 body {
     background: $bg-primary;
     color: rgba(255, 255, 255, 1);
@@ -217,4 +218,8 @@ section {
         text-decoration: none;
         border: none;
     }
+}
+
+.wrapper {
+    overflow: hidden;
 }

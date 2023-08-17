@@ -12,7 +12,15 @@
         }
     }
 }
-
+.about {
+    flex-direction: column;
+    .information_img {
+        display: flex;
+        margin-left: 70px;
+        margin-bottom: 34px;
+        margin-top: 25px;
+    }
+}
 @media screen and (max-width: 1310px) {
     .slider-template {
         max-width: 750px;
